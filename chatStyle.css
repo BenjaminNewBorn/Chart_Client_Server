@@ -1,0 +1,95 @@
+table {
+    border-collapse: collapse;
+    font-family: Futura, Arial, SansSerif;
+    margin:0px;
+}
+
+caption {
+    font-size:larger;
+    margin: auto;
+}
+
+ul,li {
+    text-align: left;
+    font-size: medium;
+}
+
+th,td {
+    padding: .65em;
+    vertical-align: top;
+    text-align:center;
+}
+
+th {
+    background: #555 no-repeat scroll 0 0;
+
+    color: #ffffff;
+}
+
+tbody tr:nth-child(odd) {
+    background: #cccccc;
+}
+
+tbody tr:nth-child(even) {
+    background: #ffffff;
+}
+
+th:first-child {
+    border-radius: 9px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 9px 0 0;
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 9px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 9px 0;
+}
+
+/*tbody tr:hover {
+
+    background: linear-gradient(#fff,#aaa);
+
+    font-size: 17px;
+
+}
+
+#comments:hover {
+
+    background: linear-gradient(#fff,#aaa);
+
+    font-size: 17px;
+
+}*/
+
+body{
+
+    font-family: Futura, Arial, SansSerif;
+    background-color: #EBF5FB;
+}
+
+form {
+    border-collapse: collapse;
+    border-radius: 9px;
+}
+
+input {
+    font-size:16px;
+    font-family: Futura, Arial, SansSerif;
+}
+
+textarea {
+    border-radius: 9px;
+    font-size:16px;
+    font-family: Futura, Arial, SansSerif;
+}
+
+
+
+
+
+
